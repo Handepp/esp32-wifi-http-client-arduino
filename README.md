@@ -54,7 +54,7 @@ You should see HTTP response codes from the server.
 
 ---
 
-## How to Use
+## Example Flask Test Server (Optional)
 ```python
 from flask import Flask, request
 
@@ -66,6 +66,11 @@ def receive_data():
     return {"status": "ok"}
 
 app.run(host="0.0.0.0", port=5000)
+```
+
+Run:
+```bash
+python app.py
 ```
 
 ## 📄 License
