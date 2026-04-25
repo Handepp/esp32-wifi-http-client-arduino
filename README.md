@@ -38,7 +38,8 @@ You can replace this with:
 ## 📦 Example Payload
 
 ```json
-{"ldr": 2345}```
+{"ldr": 2345}
+```
 
 ---
 
@@ -54,7 +55,7 @@ You should see HTTP response codes from the server.
 ---
 
 ## How to Use
-```
+```python
 from flask import Flask, request
 
 app = Flask(__name__)
